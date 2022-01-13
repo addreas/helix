@@ -1409,3 +1409,13 @@ injection-regex = "verilog"
 [[grammar]]
 name = "verilog"
 source = { git = "https://github.com/andreytkachenko/tree-sitter-verilog", rev = "514d8d70593d29ef3ef667fa6b0e504ae7c977e3" }
+
+[[language]]
+name = "cue"
+scope = "source.cue"
+roots = ["cue.mod"]
+file-types = ["cue"]
+
+[[grammar]]
+name = "cue"
+source = { git = "https://github.com/eonpatapon/tree-sitter-cue", rev = "99b117b40014b98d9a2eea9123be0944dfb121cd" }
